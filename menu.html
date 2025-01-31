@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAVANxO - Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">PAVANxO</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html" class="active">Menu</a></li>
+            <li><a href="cart.html">Cart <span class="cart-count">0</span></a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-categories">
+            <button class="category-btn active" data-category="all">All</button>
+            <button class="category-btn" data-category="pizza">Pizza</button>
+            <button class="category-btn" data-category="burger">Burgers</button>
+            <button class="category-btn" data-category="pasta">Pasta</button>
+        </div>
+        
+        <div class="menu-items">
+            <div class="menu-item" data-category="pizza">
+                <img src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=600" alt="Margherita Pizza">
+                <h3>Margherita Pizza</h3>
+                <p>Fresh tomatoes, mozzarella, basil</p>
+                <div class="price-container">
+                    <span class="original-price">₹299</span>
+                    <span class="discount-badge">10% OFF</span>
+                    <span class="final-price">₹269</span>
+                </div>
+                <div class="item-controls">
+                    <div class="quantity-controls">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1" max="10">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="pizza">
+                <img src="images/menu/sonu.jpg" alt="Pepperoni Pizza">
+                <h3>Pepperoni Pizza</h3>
+                <p>Pepperoni, cheese, tomato sauce</p>
+                <div class="price-container">
+                    <span class="original-price">₹349</span>
+                    <span class="discount-badge">10% OFF</span>
+                    <span class="final-price">₹314</span>
+                </div>
+                <div class="item-controls">
+                    <div class="quantity-controls">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1" max="10">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="burger">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600" alt="Classic Burger">
+                <h3>Classic Burger</h3>
+                <p>Beef patty, lettuce, tomato, cheese</p>
+                <div class="price-container">
+                    <span class="original-price">₹199</span>
+                    <span class="discount-badge">10% OFF</span>
+                    <span class="final-price">₹179</span>
+                </div>
+                <div class="item-controls">
+                    <div class="quantity-controls">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1" max="10">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="burger">
+                <img src="https://images.unsplash.com/photo-1615297928064-24977384d0da?w=600" alt="Chicken Burger">
+                <h3>Chicken Burger</h3>
+                <p>Grilled chicken, avocado, bacon</p>
+                <div class="price-container">
+                    <span class="original-price">₹249</span>
+                    <span class="discount-badge">10% OFF</span>
+                    <span class="final-price">₹224</span>
+                </div>
+                <div class="item-controls">
+                    <div class="quantity-controls">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1" max="10">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="pasta">
+                <img src="https://images.unsplash.com/photo-1645112411341-6c4fd023714a?w=600" alt="Fettuccine Alfredo">
+                <h3>Fettuccine Alfredo</h3>
+                <p>Creamy alfredo sauce, parmesan</p>
+                <div class="price-container">
+                    <span class="original-price">₹279</span>
+                    <span class="discount-badge">10% OFF</span>
+                    <span class="final-price">₹251</span>
+                </div>
+                <div class="item-controls">
+                    <div class="quantity-controls">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1" max="10">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="pasta">
+                <img src="https://images.unsplash.com/photo-1622973536968-3ead9e780960?w=600" alt="Spaghetti Bolognese">
+                <h3>Spaghetti Bolognese</h3>
+                <p>Rich meat sauce, herbs, parmesan</p>
+                <div class="price-container">
+                    <span class="original-price">₹259</span>
+                    <span class="discount-badge">10% OFF</span>
+                    <span class="final-price">₹233</span>
+                </div>
+                <div class="item-controls">
+                    <div class="quantity-controls">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1" max="10">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PAVANxO. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

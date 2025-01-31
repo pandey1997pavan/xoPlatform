@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAVANxO - Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">PAVANxO</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="cart.html" class="active">Cart <span class="cart-count">0</span></a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="cart-section" style="background-image: url('https://images.unsplash.com/photo-1495195134817-aeb325a55b65?w=1200'); background-size: cover; background-position: center; background-attachment: fixed;">
+        <h2>Your Cart</h2>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically added via JavaScript -->
+            <div class="empty-cart-message" style="text-align: center; padding: 2rem;">
+                <img src="https://images.unsplash.com/photo-1586769852044-692d6e3703f0?w=400" alt="Empty Cart" style="max-width: 200px; border-radius: 10px; margin-bottom: 1rem;">
+                <p>Your cart is empty. Browse our <a href="menu.html" style="color: #ff6b6b;">menu</a> to add items!</p>
+            </div>
+        </div>
+        <div class="cart-summary">
+            <div class="subtotal">
+                <span>Subtotal:</span>
+                <span class="subtotal-amount">$0.00</span>
+            </div>
+            <div class="delivery-fee">
+                <span>Delivery Fee:</span>
+                <span>$5.00</span>
+            </div>
+            <div class="total">
+                <span>Total:</span>
+                <span class="total-amount">$0.00</span>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PAVANxO. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
